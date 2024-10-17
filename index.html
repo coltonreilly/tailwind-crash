@@ -8,35 +8,38 @@
   </head>
   <body>
     <!-- nav -->
-    <nav class="relative container mx-auto p-6">
+    <nav class="relative container mx-auto my-2">
       <!-- flex container -->
-      <div class="flex items-center justify-between">
+      <div class="flex justify-between items-center">
         <!-- logo -->
         <div class="pt-2">
-          <img src="/img/logo.svg" alt="" />
+          <img src="/images/logo.png" class="object-contain h-16" alt="" />
         </div>
         <!-- menu -->
-        <div class="hidden md:flex space-x-6">
-          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
-          <a href="#" class="hover:text-darkGrayishBlue">Product</a>
-          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
-          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
-          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+        <div
+          class="hidden md:flex space-x-6 uppercase font-raleway text-base tracking-widest font-medium"
+        >
+          <a href="#" class="hover:text-darkGrayishBlue">Menu</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Reservations</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Events</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Contact</a>
         </div>
         <a
           href=""
-          class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
-          >Get Started</a
+          class="hidden md:block p-2 px-3 text-white bg-black hover:bg-brightRedLight rounded-sm font-raleway uppercase font-semibold tracking-widest"
+          >Order Online</a
         >
       </div>
     </nav>
-
     <!-- hero -->
     <section id="hero">
-      <!-- flex container -->
-      <div
-        class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
-      ></div>
+      <div class="bg-homeHero bg-fixed bg-cover bg-center h-screen"></div>
+    </section>
+
+    <section id="biz-hours">
+      <div class="container">
+        <div class="flex"></div>
+      </div>
     </section>
   </body>
 </html>

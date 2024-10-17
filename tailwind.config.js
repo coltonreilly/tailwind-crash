@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html'],
+  content: ['./*.{html,js}'],
   theme: {
     screens: {
       sm: '480px',
@@ -18,6 +18,13 @@ module.exports = {
         veryDarkBlue: 'hsl(233, 12%, 13%)',
         veryPaleRed: 'hsl(13, 100%, 96%)',
         veryLightGray: 'hsl(0, 0%, 98%)',
+      },
+      fontFamily: {
+        raleway: ['Raleway', 'san-serif'],
+        montserrat: ['Montserrat', 'san-serif'],
+      },
+      backgroundImage: {
+        homeHero: 'url(/images/home/crazy-view.jpg)',
       },
     },
   },
