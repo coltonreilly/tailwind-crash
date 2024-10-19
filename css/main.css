@@ -698,6 +698,18 @@ video {
   height: 1.5rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-44 {
   width: 11rem;
 }
@@ -720,6 +732,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .max-w-sm {
@@ -990,6 +1006,10 @@ video {
 
 .pt-3 {
   padding-top: 0.75rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
 }
 
 .text-center {
