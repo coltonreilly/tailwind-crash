@@ -26,6 +26,9 @@ module.exports = {
       backgroundImage: {
         homeHero: 'url(/images/home/crazy-view.jpg)',
       },
+      letterSpacing: {
+        bigWide: '1rem',
+      },
     },
   },
   plugins: [],
