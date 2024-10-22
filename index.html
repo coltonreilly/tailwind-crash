@@ -14,7 +14,7 @@
     <title>Wild Olives 30A | Seagrove Beach, FL</title>
   </head>
   <body>
-    <nav class="relative mx-auto my-2">
+    <nav class="relative mx-auto my-4">
       <!-- flex container -->
       <div class="flex justify-center gap-96 items-center">
         <!-- logo -->
@@ -45,11 +45,15 @@
     </nav>
 
     <section id="hero">
-      <img src="/images/home/crazy-view.jpg" alt="" />
+      <div class="relative overflow-hidden h-[720px]">
+        <div class="absolute inset-0 bg-no-repeat bg-cover 
+                    bg-fixed parallax-bg"
+            style="background-image: url(/images/home/crazy-view.jpg);">
+        </div>
     </section>
 
-    <section id="hours" class="mx-auto">
-      <div class="flex flex-col justify-center py-6 text-center">
+    <section id="hours" class="mx-auto my-12">
+      <div class="flex flex-col justify-center text-center">
         <h1
           class="text-6xl pl-4 font-raleway uppercase font-medium tracking-bigWide"
         >
@@ -68,7 +72,7 @@
         >
       </div>
 
-      <div class="flex justify-center space-x-20 py-6">
+      <div class="flex justify-center space-x-20 py-12">
         <div class="flex flex-col text-center w-44">
           <h3 class="text-xl uppercase font-raleway font-bold">Brunch</h3>
           <h4 class="font-leight font-montserrat">11AM - 3PM</h4>
@@ -85,7 +89,7 @@
           <h4 class="font-leight font-montserrat">4PM - 6PM</h4>
         </div>
       </div>
-      <div class="flex flex-col justify-center text-center mb-6">
+      <div class="flex flex-col justify-center text-center">
         <a href="#"
           ><button
             class="p-2 px-3 mb-3 text-white bg-black hover:bg-brightRedLight rounded-sm font-raleway uppercase font-semibold tracking-widest"
@@ -95,7 +99,7 @@
         >
         <a href="#"
           ><button
-            class="p-2 px-3 text-white bg-black hover:bg-brightRedLight rounded-sm font-raleway uppercase font-semibold tracking-widest"
+            class="p-2 px-3 text-white bg-black hover:bg-brightRedLight rounded-sm   font-raleway uppercase font-semibold tracking-widest"
           >
             Menu
           </button></a
@@ -104,18 +108,22 @@
     </section>
 
     <section id="corkBanner">
-      <img src="/images/home/corks.jpg" alt="" />
+      <div class="relative overflow-hidden h-[600px]">
+        <div class="absolute inset-0 bg-no-repeat bg-cover 
+                    bg-fixed parallax-bg"
+            style="background-image: url(/images/home/corks.jpg);">
+        </div>
     </section>
 
-    <section id="vipForm" class="mx-auto">
-      <div class="flex justify-center text-center align-center pt-6">
+    <section id="vipForm" class="mx-auto my-12">
+      <div class="flex justify-center text-center align-center">
         <h2
           class="text-5xl font-raleway uppercase font-semibold pl-4 tracking-bigWide"
         >
           Vip List
         </h2>
       </div>
-      <hr class="mx-auto h-px w-[340px] my-3 bg-black border-0" />
+      <hr class="mx-auto h-px w-[300px] my-3 bg-black border-0" />
       <div class="flex flex-col text-center mb-3">
         <form class="mx-auto mt-1">
           <input
@@ -127,7 +135,7 @@
           />
         </form>
       </div>
-      <div class="flex flex-col justify-center text-center mb-6">
+    <div class="flex flex-col justify-center text-center">
         <a href="#"
           ><button
             class="p-2 px-3 text-white bg-black hover:bg-brightRedLight rounded-sm font-raleway uppercase font-semibold tracking-widest"
@@ -142,42 +150,42 @@
       <div class="flex justify-center flex-wrap gap-1">
         <div>
           <img
-            class="h-[514px] w-[391px] hover:opacity-90"
+            class="h-[514px] w-[391px] hover:opacity-90 rounded-sm"
             src="images/home/cheers.jpg"
             alt=""
           />
         </div>
         <div>
           <img
-            class="h-[514px] w-[706px] hover:opacity-90"
+            class="h-[514px] w-[706px] hover:opacity-90  rounded-sm"
             src="images/home/full-course.jpg"
             alt=""
           />
         </div>
         <div>
           <img
-            class="h-[514px] w-[625px] hover:opacity-90"
+            class="h-[514px] w-[625px] hover:opacity-90  rounded-sm"
             src="images/home/penny-birthday.jpg"
             alt=""
           />
         </div>
         <div>
           <img
-            class="h-[568px] w-[434px] hover:opacity-90"
+            class="h-[568px] w-[434px] hover:opacity-90  rounded-sm"
             src="images/home/corks_unedited.jpg"
             alt=""
           />
         </div>
         <div>
           <img
-            class="h-[568px] w-[483px] hover:opacity-90"
+            class="h-[568px] w-[483px] hover:opacity-90 rounded-sm"
             src="images/home/97-chablis.heic"
             alt=""
           />
         </div>
         <div>
           <img
-            class="h-[568px] w-[805px] hover:opacity-90"
+            class="h-[568px] w-[805px] hover:opacity-90 rounded-sm"
             src="images/home/big-cheeseboard.JPG"
             alt=""
           />
@@ -185,11 +193,11 @@
       </div>
     </section>
 
-    <section id="ownerInfo" class="mx-auto">
-      <div class="flex justify-between py-6">
+    <section id="ownerInfo" class="mx-auto my-4">
+      <div class="flex justify-between py-8">
         <img
           src="/images/home/chris-and-slayde.JPG"
-          class="h-[642px] w-[800px]"
+          class="h-[642px] w-[800px] rounded-sm"
           alt=""
         />
         <div
@@ -227,15 +235,15 @@
     </section>
 
     <section id="bottleBanner">
-      <img
-        class="w-[1880px] h-[641px]"
-        src="/images/home/liquor-wall.jpg"
-        alt=""
-      />
+      <div class="relative overflow-hidden h-[600px]">
+        <div class="absolute inset-0 bg-no-repeat bg-cover 
+                    bg-fixed parallax-bg"
+            style="background-image: url(/images/home/liquor-wall.jpg);">
+        </div>
     </section>
 
-    <section id="ig" class="mx-auto">
-      <div class="flex flex-col text-center py-6">
+    <section id="ig" class="mx-auto mt-12">
+      <div class="flex flex-col text-center pb-6">
         <h2
           class="text-5xl pl-4 font-raleway uppercase font-semibold tracking-bigWide"
         >
@@ -251,27 +259,27 @@
       <div class="flex justify-between">
         <img
           src="/images/reservations/dining-room.jpg"
-          class="h-[340px] w-[340px]"
+          class="h-[340px] w-[340px] rounded-sm"
           alt=""
         />
         <img
           src="/images/reservations/dining-room.jpg"
-          class="h-[340px] w-[340px]"
+          class="h-[340px] w-[340px] rounded-sm"
           alt=""
         />
         <img
           src="/images/reservations/dining-room.jpg"
-          class="h-[340px] w-[340px]"
+          class="h-[340px] w-[340px] rounded-sm"
           alt=""
         />
         <img
           src="/images/reservations/dining-room.jpg"
-          class="h-[340px] w-[340px]"
+          class="h-[340px] w-[340px] rounded-sm"
           alt=""
         />
         <img
           src="/images/reservations/dining-room.jpg"
-          class="h-[340px] w-[340px]"
+          class="h-[340px] w-[340px] rounded-sm"
           alt=""
         />
       </div>
@@ -279,39 +287,18 @@
 
     <footer id="footer">
       <!-- flex container -->
-      <div class="flex justify-between gap-96 items-center my-4 mx-auto">
+      <div class="flex justify-center gap-96 items-center my-6 mx-auto">
         <!-- logo -->
-        <div
-          class="flex space-x-6 uppercase font-raleway items-center justify-center tracking-widest font-medium w-[250px]"
-        >
-          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
-          <a href="#" class="hover:text-darkGrayishBlue">Contact</a>
-        </div>
+        
         <!-- menu -->
-        <div class="w-[250px] flex justify-center">
-          <a href="#"
-            ><button
-              class="p-2 px-3 text-white bg-black hover:bg-brightRedLight rounded-sm font-raleway uppercase font-semibold tracking-widest"
-            >
-              Reservations
-            </button></a
-          >
-        </div>
-        <div class="w-[250px] flex justify-center items-center gap-5">
-          <a href="https://www.instagram.com/wildolives30a/" target="_blank"
-            ><i
-              class="text-2xl fa-brands fa-instagram"
-              style="color: #000000"
-            ></i
-          ></a>
-          <a href="https://www.facebook.com/wildolives30a/" target="_blank"
-            ><i
-              class="text-2xl fa-brands fa-facebook-f"
-              style="color: #000000"
-            ></i
-          ></a>
-        </div>
-      </div>
+        <div class="w-[250px] flex justify-center align-top">
+          <img
+            src="/images/logo.png"
+            class="h-[110px] w-[138px] mx-auto my-4"
+            alt=""
+          />
+          </div>
+          </div>
     </footer>
   </body>
 </html>
