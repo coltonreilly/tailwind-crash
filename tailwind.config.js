@@ -28,6 +28,7 @@ module.exports = {
       },
       letterSpacing: {
         bigWide: '1rem',
+        bigMedium: '0.25rem',
       },
     },
   },

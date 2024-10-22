@@ -12,6 +12,14 @@
     />
     <link rel="stylesheet" href="css/main.css" />
     <title>Wild Olives 30A | Seagrove Beach, FL</title>
+    <style>
+      .textShadow {
+        text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px,
+          rgba(0, 0, 0, 0.498039) -1px 1px 0px,
+          rgba(0, 0, 0, 0.498039) 1px 1px 0px,
+          rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+      }
+    </style>
   </head>
   <body>
     <nav class="relative mx-auto my-4">
@@ -19,22 +27,24 @@
       <div class="flex justify-center gap-96 items-center">
         <!-- logo -->
         <div class="flex">
-          <div class="w-[200px] flex justify-center">
-            <a href="#"
-              ><img src="/images/logo.png" class="h-[64px] w-[80px]" alt=""
-            /></a>
+          <div class="w-[250px] flex justify-center">
+            <a
+              href="#"
+              class="uppercase font-raleway text-3xl font-semibold tracking-bigMedium pl-2"
+              >Wild Olives</a
+            >
           </div>
         </div>
         <!-- menu -->
         <div
-          class="hidden md:flex space-x-6 uppercase font-raleway items-center text-center justify-center tracking-widest font-medium"
+          class="hidden md:flex space-x-6 uppercase font-raleway items-center text-center justify-center tracking-widest font-medium w-[500px]"
         >
           <a href="#" class="hover:text-darkGrayishBlue">Menu</a>
           <a href="#" class="hover:text-darkGrayishBlue">Reservations</a>
           <a href="#" class="hover:text-darkGrayishBlue">Events</a>
           <a href="#" class="hover:text-darkGrayishBlue">Contact</a>
         </div>
-        <div class="w-[200px] flex justify-center">
+        <div class="w-[250px] flex justify-center">
           <a
             href=""
             class="hidden md:block p-2 px-3 text-white bg-black hover:bg-brightRedLight rounded-sm font-raleway uppercase font-semibold tracking-widest"
@@ -46,16 +56,17 @@
 
     <section id="hero">
       <div class="relative overflow-hidden h-[720px]">
-        <div class="absolute inset-0 bg-no-repeat bg-cover 
-                    bg-fixed parallax-bg"
-            style="background-image: url(/images/home/crazy-view.jpg);">
-        </div>
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover bg-fixed parallax-bg"
+          style="background-image: url(/images/home/crazy-view.jpg)"
+        ></div>
+      </div>
     </section>
 
     <section id="hours" class="mx-auto my-12">
       <div class="flex flex-col justify-center text-center">
         <h1
-          class="text-6xl pl-4 font-raleway uppercase font-medium tracking-bigWide"
+          class="text-6xl font-raleway uppercase font-medium pl-4 tracking-bigWide"
         >
           Wild Olives
         </h1>
@@ -99,7 +110,7 @@
         >
         <a href="#"
           ><button
-            class="p-2 px-3 text-white bg-black hover:bg-brightRedLight rounded-sm   font-raleway uppercase font-semibold tracking-widest"
+            class="p-2 px-3 text-white bg-black hover:bg-brightRedLight rounded-sm font-raleway uppercase font-semibold tracking-widest"
           >
             Menu
           </button></a
@@ -109,10 +120,19 @@
 
     <section id="corkBanner">
       <div class="relative overflow-hidden h-[600px]">
-        <div class="absolute inset-0 bg-no-repeat bg-cover 
-                    bg-fixed parallax-bg"
-            style="background-image: url(/images/home/corks.jpg);">
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover bg-fixed parallax-bg"
+          style="background-image: url(/images/home/corks.jpg)"
+        >
+          <div class="flex justify-center">
+            <img
+              class="absolute items-center top-36"
+              src="/images/home/cork-overlay.webp"
+              alt=""
+            />
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="vipForm" class="mx-auto my-12">
@@ -135,7 +155,7 @@
           />
         </form>
       </div>
-    <div class="flex flex-col justify-center text-center">
+      <div class="flex flex-col justify-center text-center">
         <a href="#"
           ><button
             class="p-2 px-3 text-white bg-black hover:bg-brightRedLight rounded-sm font-raleway uppercase font-semibold tracking-widest"
@@ -157,21 +177,21 @@
         </div>
         <div>
           <img
-            class="h-[514px] w-[706px] hover:opacity-90  rounded-sm"
+            class="h-[514px] w-[706px] hover:opacity-90 rounded-sm"
             src="images/home/full-course.jpg"
             alt=""
           />
         </div>
         <div>
           <img
-            class="h-[514px] w-[625px] hover:opacity-90  rounded-sm"
+            class="h-[514px] w-[625px] hover:opacity-90 rounded-sm"
             src="images/home/penny-birthday.jpg"
             alt=""
           />
         </div>
         <div>
           <img
-            class="h-[568px] w-[434px] hover:opacity-90  rounded-sm"
+            class="h-[568px] w-[434px] hover:opacity-90 rounded-sm"
             src="images/home/corks_unedited.jpg"
             alt=""
           />
@@ -236,14 +256,24 @@
 
     <section id="bottleBanner">
       <div class="relative overflow-hidden h-[600px]">
-        <div class="absolute inset-0 bg-no-repeat bg-cover 
-                    bg-fixed parallax-bg"
-            style="background-image: url(/images/home/liquor-wall.jpg);">
+        <div
+          class="absolute inset-0 bg-no-repeat bg-cover bg-fixed parallax-bg"
+          style="background-image: url(/images/home/liquor-wall.jpg)"
+        >
+          <div class="flex justify-center text-center">
+            <h2
+              class="absolute text-6xl w-[1050px] text-white font-raleway font-bold leading-relaxed italic border-black textShadow top-48"
+            >
+              "A little more than enough to drink; for thirst is a dangerous
+              thing.”
+            </h2>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="ig" class="mx-auto mt-12">
-      <div class="flex flex-col text-center pb-6">
+      <div class="flex flex-col text-center pb-8">
         <h2
           class="text-5xl pl-4 font-raleway uppercase font-semibold tracking-bigWide"
         >
@@ -259,7 +289,7 @@
       <div class="flex justify-between">
         <img
           src="/images/reservations/dining-room.jpg"
-          class="h-[340px] w-[340px] rounded-sm"
+          class="h-[340px] w-[340px] rounded-r-sm"
           alt=""
         />
         <img
@@ -279,7 +309,7 @@
         />
         <img
           src="/images/reservations/dining-room.jpg"
-          class="h-[340px] w-[340px] rounded-sm"
+          class="h-[340px] w-[340px] rounded-l-sm"
           alt=""
         />
       </div>
@@ -287,9 +317,9 @@
 
     <footer id="footer">
       <!-- flex container -->
-      <div class="flex justify-center gap-96 items-center my-6 mx-auto">
+      <div class="flex justify-center gap-96 items-center my-4 mx-auto">
         <!-- logo -->
-        
+
         <!-- menu -->
         <div class="w-[250px] flex justify-center align-top">
           <img
@@ -297,8 +327,8 @@
             class="h-[110px] w-[138px] mx-auto my-4"
             alt=""
           />
-          </div>
-          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
