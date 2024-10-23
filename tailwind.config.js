@@ -18,6 +18,7 @@ module.exports = {
         veryDarkBlue: 'hsl(233, 12%, 13%)',
         veryPaleRed: 'hsl(13, 100%, 96%)',
         veryLightGray: 'hsl(0, 0%, 98%)',
+        oliveBrown: 'hsl(99, 9%, 38%)',
       },
       fontFamily: {
         raleway: ['Raleway', 'san-serif'],
@@ -28,7 +29,7 @@ module.exports = {
       },
       letterSpacing: {
         bigWide: '1rem',
-        bigMedium: '0.25rem',
+        bigMedium: '0.5rem',
       },
     },
   },
