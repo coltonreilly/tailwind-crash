@@ -902,6 +902,18 @@ video {
   width: 950px;
 }
 
+.w-\[150px\] {
+  width: 150px;
+}
+
+.w-\[120px\] {
+  width: 120px;
+}
+
+.w-\[140px\] {
+  width: 140px;
+}
+
 .resize-none {
   resize: none;
 }
