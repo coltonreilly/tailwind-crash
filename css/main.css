@@ -682,16 +682,8 @@ video {
   margin-top: 3rem;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
-}
-
-.inline-flex {
-  display: inline-flex;
 }
 
 .hidden {
@@ -764,6 +756,10 @@ video {
 
 .w-96 {
   width: 24rem;
+}
+
+.w-\[100px\] {
+  width: 100px;
 }
 
 .w-\[1050px\] {
@@ -904,10 +900,6 @@ video {
 
 .w-\[950px\] {
   width: 950px;
-}
-
-.w-\[100px\] {
-  width: 100px;
 }
 
 .resize-none {
