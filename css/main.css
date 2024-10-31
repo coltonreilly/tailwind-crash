@@ -918,6 +918,14 @@ video {
   width: 140px;
 }
 
+.w-\[171px\] {
+  width: 171px;
+}
+
+.w-\[180px\] {
+  width: 180px;
+}
+
 .resize-none {
   resize: none;
 }
