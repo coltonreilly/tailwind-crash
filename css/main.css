@@ -554,34 +554,6 @@ video {
   display: none;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 480px) {
-  .container {
-    max-width: 480px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 976px) {
-  .container {
-    max-width: 976px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-}
-
 .absolute {
   position: absolute;
 }
@@ -653,11 +625,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -680,10 +647,6 @@ video {
 
 .mt-12 {
   margin-top: 3rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .flex {
@@ -724,10 +687,6 @@ video {
 
 .h-\[568px\] {
   height: 568px;
-}
-
-.h-\[600px\] {
-  height: 600px;
 }
 
 .h-\[620px\] {
@@ -774,12 +733,20 @@ video {
   width: 138px;
 }
 
+.w-\[140px\] {
+  width: 140px;
+}
+
 .w-\[161px\] {
   width: 161px;
 }
 
 .w-\[170px\] {
   width: 170px;
+}
+
+.w-\[180px\] {
+  width: 180px;
 }
 
 .w-\[1880px\] {
@@ -894,36 +861,12 @@ video {
   width: 80px;
 }
 
-.w-\[900px\] {
-  width: 900px;
-}
-
 .w-\[936px\] {
   width: 936px;
 }
 
 .w-\[950px\] {
   width: 950px;
-}
-
-.w-\[150px\] {
-  width: 150px;
-}
-
-.w-\[120px\] {
-  width: 120px;
-}
-
-.w-\[140px\] {
-  width: 140px;
-}
-
-.w-\[171px\] {
-  width: 171px;
-}
-
-.w-\[180px\] {
-  width: 180px;
 }
 
 .resize-none {
@@ -956,10 +899,6 @@ video {
 
 .gap-3 {
   gap: 0.75rem;
-}
-
-.gap-96 {
-  gap: 24rem;
 }
 
 .space-x-20 > :not([hidden]) ~ :not([hidden]) {
@@ -1067,6 +1006,10 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -1087,16 +1030,12 @@ video {
   padding-top: 2.5rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .pt-12 {
   padding-top: 3rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-center {
@@ -1213,16 +1152,16 @@ video {
   letter-spacing: 1rem;
 }
 
+.tracking-normal {
+  letter-spacing: 0em;
+}
+
 .tracking-wide {
   letter-spacing: 0.025em;
 }
 
 .tracking-widest {
   letter-spacing: 0.1em;
-}
-
-.tracking-normal {
-  letter-spacing: 0em;
 }
 
 .text-white {
@@ -1246,11 +1185,6 @@ video {
   font-family: 'Montserrat';
 
   src: url('/fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
-}
-
-.hover\:bg-brightRedLight:hover {
-  --tw-bg-opacity: 1;
-  background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
 }
 
 .hover\:bg-oliveBrown:hover {
