@@ -22,13 +22,13 @@
     </style>
   </head>
 
-  <body>
+  <body class="overflow-x-hidden">
     <nav class="sticky shadow-sm mx-auto py-4 top-0 z-10 bg-white">
       <div class="flex justify-between items-center">
         <div class="flex">
           <div class="w-[250px] flex justify-center">
             <a href="index.html">
-              <img src="/images/logo.png" class="h-[64px] w-[80px]" alt="" />
+              <img src="/images/logo.png" class="h-[63px] w-[80px]" alt="" />
             </a>
           </div>
         </div>
@@ -51,6 +51,32 @@
             class="hidden md:block p-2 px-3 text-white bg-black hover:bg-oliveBrown rounded-sm font-raleway uppercase font-semibold tracking-widest"
             >Order Online</a
           >
+        </div>
+
+        <!-- Hamburger Icon -->
+        <div class="md:hidden">
+          <button
+            id="menu-btn"
+            class="md:hidden block hamburger focus:outline-none"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            <a href="#">Pricing</a>
+            <a href="#">Product</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Community</a>
+          </div>
         </div>
       </div>
     </nav>
@@ -394,5 +420,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
