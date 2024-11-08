@@ -23,7 +23,8 @@
   </head>
 
   <body class="overflow-x-hidden">
-    <nav class="sticky shadow-sm mx-auto py-4 top-0 z-10 bg-white">
+    <!-- old nav -->
+    <!-- <nav class="sticky shadow-sm mx-auto py-4 top-0 z-10 bg-white">
       <div class="flex justify-between items-center">
         <div class="flex">
           <div class="w-[250px] flex justify-center">
@@ -34,15 +35,15 @@
         </div>
         <div
           class="hidden md:flex space-x-6 uppercase font-raleway items-center text-center justify-center tracking-widest font-medium w-[800px]"
-        >
-          <!-- <a href="index.html" class="hover:text-oliveBrown">Welcome</a> -->
-          <a href="dinner.html" class="hover:text-oliveBrown">Menu</a>
+        > -->
+    <!-- <a href="index.html" class="hover:text-oliveBrown">Welcome</a> -->
+    <!-- <a href="dinner.html" class="hover:text-oliveBrown">Menu</a>
           <a href="reservations.html" class="hover:text-oliveBrown"
             >Reservations</a
           >
-          <a href="events.html" class="hover:text-oliveBrown">Events</a>
-          <!-- <a href="our-story.html" class="hover:text-oliveBrown">Our Story</a> -->
-          <a href="contact.html" class="hover:text-oliveBrown">Contact</a>
+          <a href="events.html" class="hover:text-oliveBrown">Events</a> -->
+    <!-- <a href="our-story.html" class="hover:text-oliveBrown">Our Story</a> -->
+    <!-- <a href="contact.html" class="hover:text-oliveBrown">Contact</a>
         </div>
         <div class="w-[250px] flex justify-center">
           <a
@@ -51,10 +52,10 @@
             class="hidden md:block p-2 px-3 text-white bg-black hover:bg-oliveBrown rounded-sm font-raleway uppercase font-semibold tracking-widest"
             >Order Online</a
           >
-        </div>
+        </div> -->
 
-        <!-- Hamburger Icon -->
-        <div class="md:hidden">
+    <!-- Hamburger Icon -->
+    <!-- <div class="md:hidden">
           <button
             id="menu-btn"
             class="md:hidden block hamburger focus:outline-none"
@@ -63,10 +64,10 @@
             <span class="hamburger-middle"></span>
             <span class="hamburger-bottom"></span>
           </button>
-        </div>
+        </div> -->
 
-        <!-- Mobile Menu -->
-        <div class="md:hidden">
+    <!-- Mobile Menu -->
+    <!-- <div class="md:hidden">
           <div
             id="menu"
             class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
@@ -77,6 +78,54 @@
             <a href="#">Careers</a>
             <a href="#">Community</a>
           </div>
+        </div>
+      </div>
+    </nav> -->
+
+    <nav class="relative container mx-auto p-6 bg-white">
+      <!-- flex container -->
+      <div class="flex items-center justify-between">
+        <!-- logo -->
+        <div class="pt-2">
+          <img src="/img/logo.svg" alt="" />
+        </div>
+        <div
+          class="hidden space-x-6 uppercase font-raleway tracking-widest font-medium md:flex"
+        >
+          <a href="#" class="hover:text-darkGrayishBlue">Menu</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Reservations</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Events</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Contact</a>
+        </div>
+
+        <!-- button -->
+        <a
+          href="#"
+          class="hidden p-3 px-6 text-white bg-black rounded-sm uppercase font-raleway font-semibold tracking-widest baseline hover:bg-brightRedLight md:block"
+          >Order Online</a
+        >
+
+        <!-- hamburger icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- mobile menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center self-end py-8 mt-10 hidden space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#">Menu</a>
+          <a href="#">Reservations</a>
+          <a href="#">Events</a>
+          <a href="#">Contact</a>
         </div>
       </div>
     </nav>
